@@ -1,0 +1,12 @@
+diff --git a/src/firewall.c b/src/firewall.c
+index ef2fb74..6ff4041 100644
+--- a/src/firewall.c
++++ b/src/firewall.c
+@@ -37,7 +37,6 @@
+ #include <pthread.h>
+ #include <sys/wait.h>
+ #include <sys/types.h>
+-#include <sys/unistd.h>
+ 
+ #include <string.h>
+ 
