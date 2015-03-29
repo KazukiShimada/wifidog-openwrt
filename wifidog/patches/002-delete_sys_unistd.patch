@@ -1,0 +1,36 @@
+diff --git a/src/client_list.c b/src/client_list.c
+index b6b76b6..e1fb0f0 100644
+--- a/src/client_list.c
++++ b/src/client_list.c
+@@ -35,7 +35,6 @@
+ #include <pthread.h>
+ #include <sys/wait.h>
+ #include <sys/types.h>
+-#include <sys/unistd.h>
+ 
+ #include <string.h>
+ 
+diff --git a/src/firewall.c b/src/firewall.c
+index ef2fb74..6ff4041 100644
+--- a/src/firewall.c
++++ b/src/firewall.c
+@@ -37,7 +37,6 @@
+ #include <pthread.h>
+ #include <sys/wait.h>
+ #include <sys/types.h>
+-#include <sys/unistd.h>
+ 
+ #include <string.h>
+ 
+diff --git a/src/util.c b/src/util.c
+index 9d66721..a06c61c 100644
+--- a/src/util.c
++++ b/src/util.c
+@@ -38,7 +38,6 @@
+ #include <pthread.h>
+ #include <sys/wait.h>
+ #include <sys/types.h>
+-#include <sys/unistd.h>
+ #include <netinet/in.h>
+ #include <sys/ioctl.h>
+ #include <arpa/inet.h>
