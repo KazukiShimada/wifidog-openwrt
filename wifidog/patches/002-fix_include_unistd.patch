@@ -11,18 +11,6 @@ index c0e3e2b..267155c 100644
  
  #include <string.h>
  
-diff --git a/src/debug.c b/src/debug.c
-index ba84d02..9a690e6 100644
---- a/src/debug.c
-+++ b/src/debug.c
-@@ -31,6 +31,7 @@
- #include <time.h>
- #include <unistd.h>
- #include <signal.h>
-+#include <pthread.h>
- 
- #include "conf.h"
- 
 diff --git a/src/firewall.c b/src/firewall.c
 index 9c53d02..c6592de 100644
 --- a/src/firewall.c
