@@ -19,13 +19,12 @@ PKG_LICENSE_FILES:=COPYING
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=git://github.com/wifidog/wifidog-gateway.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-#PKG_SOURCE_VERSION:=master
-#PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_VERSION:=master
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 
 PKG_FIXUP:=autoreconf
 # do not run make install
-#PKG_INSTALL:=0
+PKG_INSTALL:=0
 
 include $(INCLUDE_DIR)/package.mk
 
