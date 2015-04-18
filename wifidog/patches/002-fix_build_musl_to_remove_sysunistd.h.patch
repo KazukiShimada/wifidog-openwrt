@@ -1,13 +1,12 @@
 diff --git a/src/client_list.c b/src/client_list.c
-index c0e3e2b..267155c 100644
+index 015dd95..148a590 100644
 --- a/src/client_list.c
 +++ b/src/client_list.c
-@@ -33,7 +33,7 @@
+@@ -33,7 +33,6 @@
  #include <pthread.h>
  #include <sys/wait.h>
  #include <sys/types.h>
 -#include <sys/unistd.h>
-+#include <unistd.h>
  
  #include <string.h>
  
@@ -24,15 +23,14 @@ index 9c53d02..c6592de 100644
  #include <string.h>
  
 diff --git a/src/util.c b/src/util.c
-index b604227..4e85fbf 100644
+index 506c706..a4d2e76 100644
 --- a/src/util.c
 +++ b/src/util.c
-@@ -38,7 +38,7 @@
- #include <pthread.h>
+@@ -36,7 +36,6 @@
  #include <sys/wait.h>
  #include <sys/types.h>
+ #include <sys/time.h>
 -#include <sys/unistd.h>
-+#include <unistd.h>
  #include <netinet/in.h>
  #include <sys/ioctl.h>
  #include <arpa/inet.h>
